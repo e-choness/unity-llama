@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 8316821507885964222}
   - component: {fileID: 4955246626782319643}
   - component: {fileID: 7142820903540285649}
-  - component: {fileID: -7081797488781165943}
   m_Layer: 0
-  m_Name: VR_Reticle_Circular
+  m_Name: VR_Reticle_1_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +28,6 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -41,7 +39,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8656087483511947524}
-  m_Mesh: {fileID: 6110698874637867856, guid: 883aa768df4bda3458a877ef996151c0, type: 3}
+  m_Mesh: {fileID: 6110698874637867856, guid: 307e23520cfd9f14d941b0f76117a0cb, type: 3}
 --- !u!23 &7142820903540285649
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -53,7 +51,6 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -84,17 +81,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &-7081797488781165943
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8656087483511947524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4262875f516c9aa419f3a86b29f1263b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sensitivity: 1
-  speed: 10
